@@ -6,8 +6,6 @@ end jk_tb;
 
 architecture behavior of jk_tb is
 
-    --constant CLK_PERIOD: time := 10 ns; -- Clock period
-
     signal j_tb, k_tb: std_logic;
     signal clk_tb: std_logic;
     signal q_tb, qN_tb: std_logic;

@@ -1,0 +1,59 @@
+$date
+  Sat Feb 10 20:04:13 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module mux_tb $end
+$var reg 3 ! a_tb[2:0] $end
+$var reg 3 " b_tb[2:0] $end
+$var reg 3 # c_tb[2:0] $end
+$var reg 3 $ d_tb[2:0] $end
+$var reg 2 % sel_tb[1:0] $end
+$var reg 3 & z_tb[2:0] $end
+$scope module mapp $end
+$var reg 3 ' a[2:0] $end
+$var reg 3 ( b[2:0] $end
+$var reg 3 ) c[2:0] $end
+$var reg 3 * d[2:0] $end
+$var reg 2 + sel[1:0] $end
+$var reg 3 , z[2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b000 !
+b001 "
+b010 #
+b011 $
+b00 %
+b000 &
+b000 '
+b001 (
+b010 )
+b011 *
+b00 +
+b000 ,
+#20000000
+b01 %
+b001 &
+b01 +
+b001 ,
+#40000000
+b10 %
+b010 &
+b10 +
+b010 ,
+#60000000
+b11 %
+b011 &
+b11 +
+b011 ,
+#80000000
