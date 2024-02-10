@@ -1,0 +1,11 @@
+v 4
+file . "fullAdder_tb.vhdl" "a4b103ef9a1524aaa1d5c23ef434b29f350cafc3" "20240210180150.363":
+  entity fa_test at 1( 0) + 0 on 17;
+  architecture test_bench of fa_test at 7( 76) + 0 on 18;
+file . "fullAdder.vhdl" "dac9c8360c9a8ca0e83fd84ba67809be7c3b3195" "20240210180150.346":
+  entity or_gate at 2( 25) + 0 on 11;
+  architecture or_arch of or_gate at 12( 146) + 0 on 12;
+  entity half_adder at 18( 241) + 0 on 13;
+  architecture ha_arch of half_adder at 28( 370) + 0 on 14;
+  entity full_adder at 36( 515) + 0 on 15;
+  architecture fa_arch of full_adder at 45( 647) + 0 on 16;
