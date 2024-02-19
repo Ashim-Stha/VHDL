@@ -1,10 +1,7 @@
 v 4
-file . "lcm_tb.vhdl" "0effa6f9aa1608f38fca05d22bf36a141109b506" "20240210175506.898":
-  entity lcm_tb at 1( 0) + 0 on 33;
-  architecture simulation1 of lcm_tb at 8( 101) + 0 on 34;
-file . "tb_lcm.vhdl" "e2dd507ddc7aab0c8a250952a31f62c6a8080e1f" "20240210175353.093":
-  entity fsmtb_lcm at 1( 0) + 0 on 29;
-  architecture behavior of fsmtb_lcm at 7( 83) + 0 on 30;
-file . "lcm.vhdl" "4d0d70f1e2a864f3c4efc849e96b8662ae362686" "20240210175506.871":
-  entity lcm at 1( 0) + 0 on 31;
-  architecture behavioralmodel of lcm at 13( 292) + 0 on 32;
+file . "tb_lcm.vhdl" "b397b94a4a9ce19f6407cbfa5daa5f1fbdde0f92" "20240219031537.021":
+  entity fsmtb_lcm at 1( 0) + 0 on 49;
+  architecture behavior of fsmtb_lcm at 7( 83) + 0 on 50;
+file . "lcm.vhdl" "a037def61c22b4ca74e41ade115fe40d29268a9c" "20240219031537.005":
+  entity fsm_lcm at 1( 0) + 0 on 47;
+  architecture behavior of fsm_lcm at 10( 159) + 0 on 48;

@@ -1,10 +1,8 @@
-all: result.vcd
-
-result.vcd: lcm.vhdl lcm_tb.vhdl 
-	ghdl -a lcm.vhdl
-	ghdl -a lcm_tb.vhdl
-	ghdl -e lcm_tb
-	ghdl -r lcm_tb --vcd=result.vcd
-
+all:	result.vcd
+result.vcd:	lcm.vhdl	tb_lcm.vhdl
+	ghdl	-a	-fsynopsys	lcm.vhdl
+	ghdl	-a	tb_lcm.vhdl
+	ghdl	-e	-fsynopsys fsmtb_lcm
+	ghdl	-r	-fsynopsys fsmtb_lcm	--vcd=result.vcd	--stop-time=20us
 clean:
-	rm -rf result.vcd
+	rm	-rf	result.vcd
