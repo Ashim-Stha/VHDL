@@ -5,5 +5,10 @@
 ## Question
 Write the VHDL code for d flipflop.
 
+## D Flip Flop
+<div align = 'center'>
+<img src = 'd.png'>
+</div>
+
 ## Output
 ![fulladder_tb](/d-flipflop/d-flipflop.png)
